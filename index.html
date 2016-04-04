@@ -7,33 +7,34 @@
 </head>
 <body>
 
-	<nav class="sidebar">
-		<a href="#">Animals</a>
-		<a href="#">Clouds</a>
-		<a href="#">Trees</a>
-		<a href="#">Rainy Days</a>
-		<a href="#">Rainbows</a>
-		<a href="#">Random Things</a>
+	<nav class="sidebar hidden">
+		<a href="#" class="home">Home</a>
+		<a href="#" class="animals">Animals</a>
+		<a href="#" class="clouds">Clouds</a>
+		<a href="#" class="trees">Trees</a>
+		<a href="#" class="rainy">Rainy Days</a>
+		<a href="#" class="rainbows">Rainbows</a>
+		<a href="#" class="random">Random Things</a>
 	</nav>
 
-	<section class="home-page hidden"><!-- start photo album home page -->
+	<section class="home-page"><!-- start photo album home page -->
 		
 		<header class="home-header">
 			<h1>My Photos</h1>
 		</header>
 	
-		<div class="album-1 thumb">
+		<div class="thumb animals">
 			<a href="#">
 				<div class="crop landscape">
-					<img src="images/animals/bored_of_ts_eliot.jpg" alt="animals album cover image">
+					<img src="images/animals/milo.jpg" alt="animals album cover image">
 				</div>
 				<div class="album-name">
 					<h2>Animals</h2>
 				</div>
 			</a>
 		</div>	
-		<div class="album-2 thumb">
-			<a href="#">
+		<div class="thumb">
+			<a href="#" class="clouds">
 				<div class="crop landscape">
 					<img src="images/clouds/altocumulus.jpg" alt="clouds album cover image">
 				</div>	
@@ -42,8 +43,8 @@
 				</div>
 			</a>	
 		</div>	
-		<div class="album-3 thumb">
-			<a href="#">
+		<div class="thumb">
+			<a href="#" class="trees">
 				<div class="crop landscape">			
 					<img src="images/trees/tree01.jpg" alt="trees album cover image">
 				</div>
@@ -52,8 +53,8 @@
 				</div>
 			</a>	
 		</div>	
-		<div class="album-4 thumb">
-			<a href="#">
+		<div class="thumb">
+			<a href="#" class="rainy">
 				<div class="crop landscape">
 					<img src="images/rainy/leaf.jpg" alt="rainy days album cover image">
 				</div> 
@@ -62,8 +63,8 @@
 				</div>
 			</a>	
 		</div>	
-		<div class="album-5 thumb">
-			<a href="#">
+		<div class="thumb">
+			<a href="#" class="rainbows">
 				<div class="crop landscape">
 					<img src="images/rainbows/double_rainbow.jpg" alt="rainbows album cover image">
 				</div>	
@@ -72,8 +73,8 @@
 				</div>
 			</a>	
 		</div>	
-		<div class="album-6 thumb">
-			<a href="#">
+		<div class="thumb">
+			<a href="#" class="random">
 				<div class="crop portrait">
 					<img src="images/random/murder_cookie.jpg" alt="random things cover image">
 				</div>	
@@ -85,7 +86,7 @@
 		
 	</section><!-- end photo album home page -->
 
-	<section class="album-page"><!-- start Animals content -->
+	<section class="album-page animal-album hidden"><!-- start Animals content -->
 		<header class="inside-header">
 			<h1>Animals</h1>
 		</header>
@@ -93,7 +94,7 @@
 		<div class="image-1 thumb">
 			<a href="#">
 				<div class="crop landscape">		
-					<img src="images/animals/bored_of_ts_eliot.jpg" alt="">
+					<img src="images/animals/milo.jpg" alt="">
 				</div>	
 				<div class="caption">
 					<p>being a cat is hard</p>
@@ -143,7 +144,7 @@
 		<div class="image-6 thumb">
 			<a href="#">
 				<div class="crop landscape">		
-					<img src="images/animals/milo_wins_again.jpg" alt="">
+					<img src="images/animals/milo2.jpg" alt="">
 				</div>	
 				<div class="caption">
 					<p>caption</p>
@@ -154,14 +155,16 @@
 	</section><!-- end Animals content -->
 
 
-	<section class="album-page hidden"><!-- start album 2 content -->
+	<section class="album-page cloud-album hidden"><!-- start album 2 content -->
 		<header class="inside-header">
 			<h1>Clouds</h1>
 		</header>
 	
 		<div class="image-1 thumb">
 			<a href="#">		
-				<img src="images/clouds/altocumulus.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/altocumulus.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -169,7 +172,9 @@
 		</div>
 		<div class="image-2 thumb">
 			<a href="#">		
-				<img src="images/clouds/altostratus.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/altostratus.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -177,7 +182,9 @@
 		</div>
 		<div class="image-3 thumb">
 			<a href="#">		
-				<img src="images/clouds/cirrostratus.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/cirrostratus.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -185,7 +192,9 @@
 		</div>
 		<div class="image-4 thumb">
 			<a href="#">		
-				<img src="images/clouds/cirrus.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/cirrus.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -193,7 +202,9 @@
 		</div>
 		<div class="image-5 thumb">
 			<a href="#">		
-				<img src="images/clouds/cumulonimbus.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/cumulonimbus.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -201,7 +212,9 @@
 		</div>
 		<div class="image-6 thumb">
 			<a href="#">		
-				<img src="images/clouds/cumulus.jpg" alt="">
+				<div class="crop portrait">		
+					<img src="images/clouds/cumulus.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -209,7 +222,9 @@
 		</div>
 		<div class="image-6 thumb">
 			<a href="#">		
-				<img src="images/clouds/mammatus.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/mammatus.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -217,7 +232,9 @@
 		</div>
 		<div class="image-6 thumb">
 			<a href="#">		
-				<img src="images/clouds/punchole.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/punchole.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -225,7 +242,9 @@
 		</div>
 		<div class="image-6 thumb">
 			<a href="#">		
-				<img src="images/clouds/stratocumulus.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/stratocumulus.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -233,7 +252,9 @@
 		</div>
 		<div class="image-6 thumb">
 			<a href="#">		
-				<img src="images/clouds/stratus.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/stratus.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -241,7 +262,9 @@
 		</div>
 		<div class="image-6 thumb">
 			<a href="#">		
-				<img src="images/clouds/sunset_clouds.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/clouds/sunset_clouds.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -251,14 +274,16 @@
 	</section><!-- end album 2 content -->
 
 
-	<section class="album-page hidden"><!-- start album 3 content -->
+	<section class="album-page tree-album hidden"><!-- start album 3 content -->
 		<header class="inside-header">
 			<h1>Trees</h1>
 		</header>
 	
 		<div class="image-1 thumb">
 			<a href="#">		
-				<img src="images/trees/tree01.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/trees/tree01.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -266,7 +291,9 @@
 		</div>
 		<div class="image-2 thumb">
 			<a href="#">		
-				<img src="images/trees/tree02.jpg" alt="">
+				<div class="crop portrait">		
+					<img src="images/trees/tree02.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -274,7 +301,9 @@
 		</div>
 		<div class="image-3 thumb">
 			<a href="#">		
-				<img src="images/trees/tree03.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/trees/tree03.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -282,7 +311,9 @@
 		</div>
 		<div class="image-4 thumb">
 			<a href="#">		
-				<img src="images/trees/tree04.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/trees/tree04.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -292,14 +323,16 @@
 	</section><!-- end album 3 content -->
 
 
-	<section class="album-page hidden"><!-- start album 4 content -->
+	<section class="album-page rain-album hidden"><!-- start album 4 content -->
 		<header class="inside-header">
 			<h1>Rainy Days</h1>
 		</header>
 	
 		<div class="image-1 thumb">
 			<a href="#">		
-				<img src="images/rainy/leaf.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/rainy/leaf.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -307,7 +340,9 @@
 		</div>
 		<div class="image-2 thumb">
 			<a href="#">		
-				<img src="images/rainy/bullock.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/rainy/bullock.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -315,7 +350,9 @@
 		</div>
 		<div class="image-3 thumb">
 			<a href="#">		
-				<img src="images/rainy/austin_skyline.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/rainy/austin_skyline.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -323,7 +360,9 @@
 		</div>
 		<div class="image-4 thumb">
 			<a href="#">		
-				<img src="images/rainy/shoal_creek.jpg" alt="">
+				<div class="crop portrait">		
+					<img src="images/rainy/shoal_creek.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -332,14 +371,26 @@
 	</section><!-- end album 4 content -->
 
 
-	<section class="album-page hidden"><!-- start album 5 content -->
+	<section class="album-page rainbow-album hidden"><!-- start album 5 content -->
 		<header class="inside-header">
 			<h1>Rainbows</h1>
 		</header>
 	
 		<div class="image-1 thumb">
 			<a href="#">		
-				<img src="images/rainbows/rainbow_birds2.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/rainbows/double_rainbow.jpg" alt="">
+				</div>	
+				<div class="caption">
+					<p>caption</p>
+				</div>
+			</a>	
+		</div>
+		<div class="image-1 thumb">
+			<a href="#">		
+				<div class="crop landscape">		
+					<img src="images/rainbows/rainbow_birds2.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -347,7 +398,9 @@
 		</div>
 		<div class="image-2 thumb">
 			<a href="#">		
-				<img src="images/rainbows/secret_rainbow.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/rainbows/secret_rainbow.jpg" alt="">
+				</div>
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -355,7 +408,9 @@
 		</div>
 		<div class="image-3 thumb">
 			<a href="#">		
-				<img src="images/rainbows/flat_rainbow.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/rainbows/flat_rainbow.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -363,7 +418,9 @@
 		</div>
 		<div class="image-4 thumb">
 			<a href="#">		
-				<img src="images/rainbows/rainbow_birds.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/rainbows/rainbow_birds.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -373,14 +430,16 @@
 	</section><!-- end album 5 content -->
 
 
-	<section class="album-page hidden"><!-- start album 6 content -->
+	<section class="album-page random-album hidden"><!-- start album 6 content -->
 		<header class="inside-header">
 			<h1>Random Things</h1>
 		</header>
 	
 		<div class="image-1 thumb">
 			<a href="#">		
-				<img src="images/random/murder_cookie.jpg" alt="">
+				<div class="crop portrait">		
+					<img src="images/random/murder_cookie.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -388,7 +447,9 @@
 		</div>
 		<div class="image-2 thumb">
 			<a href="#">		
-				<img src="images/random/dinosaur_print.jpg" alt="">
+				<div class="crop portrait">		
+					<img src="images/random/dinosaur_print.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -396,7 +457,9 @@
 		</div>
 		<div class="image-3 thumb">
 			<a href="#">		
-				<img src="images/random/skull.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/random/skull.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -404,7 +467,9 @@
 		</div>
 		<div class="image-4 thumb">
 			<a href="#">		
-				<img src="images/random/umbrellas.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/random/umbrellas.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -412,7 +477,9 @@
 		</div>
 		<div class="image-5 thumb">
 			<a href="#">		
-				<img src="images/random/weird_princess.jpg" alt="">
+				<div class="crop landscape">		
+					<img src="images/random/weird_princess.jpg" alt="">
+				</div>	
 				<div class="caption">
 					<p>caption</p>
 				</div>
@@ -421,7 +488,15 @@
 
 	</section><!-- end album 6 content -->
 
-
-	
+	<section class="slideshow">
+		<img class="hidden" src="images/animals/milo.jpg" alt="">
+		<img class="hidden" src="images/animals/grackles.jpg" alt="">
+		<img class="hidden" src="images/animals/bees.jpg" alt="">
+		<img class="hidden" src="images/animals/squirrel.jpg" alt="">
+		<img class="hidden" src="images/animals/purple_martins.jpg" alt="">
+		<img class="hidden" src="images/animals/milo2.jpg" alt="">
+	</section>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="app.js"></script>	
 </body>
 </html>

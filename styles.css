@@ -27,8 +27,7 @@ a {
 
 header {
   width: 100%;
-  text-align: center;
-  margin: 1em 0 2em 0; }
+  text-align: center; }
 
 /***************************	 	
 	NAVIGATION STYLES		
@@ -37,7 +36,7 @@ header {
   float: left;
   background-color: #a3dbe2;
   width: 18%;
-  padding: 10em 1em;
+  padding: 8em 1em;
   height: 40em;
   overflow: hidden; }
 
@@ -97,7 +96,8 @@ nav a {
 	HOME PAGE STYLES
 ***************************/
 .home-header {
-  background-color: #a3dbe2; }
+  background-color: #a3dbe2;
+  margin: 1em 0 2em 0; }
 
 /***************************	 	
 	INSIDE PAGE STYLES
@@ -133,6 +133,17 @@ nav a {
 
   .caption {
     padding: 0.75em; } }
+@media all and (min-width: 850px) {
+  .album-page .thumb {
+    width: 45%;
+    height: auto; }
+
+  .album-page .crop {
+    width: 100%;
+    height: 14.75em; }
+
+  .album-page .caption {
+    padding: 0.75em; } }
 /***************************	 	
 	LARGE BROWSER SIZE
 ***************************/
@@ -143,5 +154,9 @@ nav a {
 
   .crop {
     height: 15.75em; } }
+@media all and (min-width: 1050px) {
+  .album-page .thumb {
+    width: 30%;
+    height: 18.75em; } }
 
 /*# sourceMappingURL=styles.css.map */
